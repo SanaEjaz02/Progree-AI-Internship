@@ -2,7 +2,7 @@
 
 **Progree Remote Artificial Intelligence Internship | Technical Report**
 
-Benchmark generated: 2026-09-13 08:42 UTC
+Benchmark generated: 2026-09-13 09:28 UTC
 
 ## 1. Executive Summary & Objective
 
@@ -27,18 +27,18 @@ The deterministic searches use the same generated grid and four-neighbor movemen
 
 | Configuration | Algorithm | Solved | Steps | Runtime (ms) | Expanded | Path cost |
 |---|---|---:|---:|---:|---:|---:|
-| Easy (15×15, 10% density) | Dijkstra | Yes | 28 | 2.7103 | 200 | 28.0 |
-| Easy (15×15, 10% density) | A* (Manhattan) | Yes | 28 | 2.2498 | 169 | 28.0 |
-| Easy (15×15, 10% density) | Q-Learning (RL Agent) | Yes | 28 | 641.8535 | 29 | 28.0 |
-| Medium (20×20, 25% density) | Dijkstra | Yes | 52 | 1.6357 | 296 | 52.0 |
-| Medium (20×20, 25% density) | A* (Manhattan) | Yes | 52 | 1.2714 | 269 | 52.0 |
-| Medium (20×20, 25% density) | Q-Learning (RL Agent) | Yes | 52 | 1972.5627 | 53 | 52.0 |
-| Hard (25×25, 35% density) | Dijkstra | Yes | 130 | 3.3572 | 445 | 130.0 |
-| Hard (25×25, 35% density) | A* (Manhattan) | Yes | 130 | 5.7247 | 395 | 130.0 |
-| Hard (25×25, 35% density) | Q-Learning (RL Agent) | Yes | 130 | 4956.1125 | 131 | 130.0 |
-| Cul-de-Sac Trap (20×20, U-shaped) | Dijkstra | Yes | 38 | 3.0043 | 353 | 38.0 |
-| Cul-de-Sac Trap (20×20, U-shaped) | A* (Manhattan) | Yes | 38 | 4.2612 | 295 | 38.0 |
-| Cul-de-Sac Trap (20×20, U-shaped) | Q-Learning (RL Agent) | Yes | 38 | 1001.8124 | 39 | 38.0 |
+| Easy (15×15, 10% density) | Dijkstra | Yes | 28 | 1.8564 | 200 | 28.0 |
+| Easy (15×15, 10% density) | A* (Manhattan) | Yes | 28 | 3.4888 | 169 | 28.0 |
+| Easy (15×15, 10% density) | Q-Learning (RL Agent) | Yes | 28 | 960.5196 | 29 | 28.0 |
+| Medium (20×20, 25% density) | Dijkstra | Yes | 52 | 2.8311 | 296 | 52.0 |
+| Medium (20×20, 25% density) | A* (Manhattan) | Yes | 52 | 2.7069 | 269 | 52.0 |
+| Medium (20×20, 25% density) | Q-Learning (RL Agent) | Yes | 52 | 2909.7445 | 53 | 52.0 |
+| Hard (25×25, 35% density) | Dijkstra | Yes | 130 | 4.2092 | 445 | 130.0 |
+| Hard (25×25, 35% density) | A* (Manhattan) | Yes | 130 | 3.9318 | 395 | 130.0 |
+| Hard (25×25, 35% density) | Q-Learning (RL Agent) | Yes | 130 | 6153.2938 | 131 | 130.0 |
+| Cul-de-Sac Trap (20×20, U-shaped) | Dijkstra | Yes | 38 | 5.7251 | 353 | 38.0 |
+| Cul-de-Sac Trap (20×20, U-shaped) | A* (Manhattan) | Yes | 38 | 3.2053 | 295 | 38.0 |
+| Cul-de-Sac Trap (20×20, U-shaped) | Q-Learning (RL Agent) | Yes | 38 | 1314.9457 | 39 | 38.0 |
 
 ## 4. Findings
 

@@ -60,6 +60,7 @@ def _rows(config_label: str, results: List[SearchResult]) -> List[BenchmarkRow]:
             expanded=result.expanded,
             path_cost=result.path_cost,
         )
+        for result in results
     ]
 
 
